@@ -16,7 +16,7 @@ public class App
             InetAddress address[] = InetAddress.getAllByName(name); 
             System.out.println( "Name:      "+ name);
             for(int i=0; i<address.length; i++){
-                system.out.println("Address: " + address[i].getHostAddress());
+                System.out.println("Address: " + address[i].getHostAddress());
             }
             //System.out.println( "Address:   "+ address.getHostAddress());
         } catch (UnknownHostException e){
